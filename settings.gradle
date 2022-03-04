@@ -19,6 +19,5 @@ dependencyResolutionManagement {
         jcenter() // Warning: this repository is going to shut down soon
     }
 }
-rootProject.name = "test-typesafeaccessors"
 include ':app'
 include ':lib1'
