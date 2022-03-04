@@ -18,4 +18,5 @@ jobs:
 
       - name: Build
         run: |
+          rm -rf .gradle
           ./gradlew clean :lib1:compileKotlin -Dorg.gradle.caching.debug=true
